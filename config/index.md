@@ -7,7 +7,7 @@ hero:
   text: "系统化前端学习与实践"
   tagline: 从基础到高级，构建完整的前端技术知识图谱
   image:
-    src: /logo.svg
+    src: /yang-docs/logo.svg
     alt: 前端知识体系
   actions:
     - theme: brand
