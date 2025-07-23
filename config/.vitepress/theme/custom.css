@@ -1,0 +1,102 @@
+/* 自定义主题样式 */
+
+:root {
+  --vp-c-brand: #3178C6;
+  --vp-c-brand-light: #4e8ac8;
+  --vp-c-brand-lighter: #6a9fd0;
+  --vp-c-brand-dark: #2c6baf;
+  --vp-c-brand-darker: #235a96;
+  
+  --vp-c-sponsor: #41B883;
+
+  /* 字体设置 */
+  --vp-font-family-base: "PingFang SC", "Microsoft YaHei", sans-serif;
+  
+  /* 自定义容器颜色 */
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: rgba(49, 120, 198, 0.1);
+}
+
+/* 暗黑模式调整 */
+.dark {
+  --vp-c-bg: #111827;
+  --vp-c-bg-alt: #1f2937;
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*="language-"] {
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* 首页特性部分样式 */
+.VPFeature {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 首页标题动画 */
+.VPHero .name,
+.VPHero .text {
+  background-image: linear-gradient(120deg, #3178C6, #41B883);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient 8s ease infinite;
+  background-size: 200% auto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 移动端适配优化 */
+@media (max-width: 768px) {
+  .VPHero .name,
+  .VPHero .text {
+    font-size: 90%;
+  }
+}
+
+/* 表格样式优化 */
+.vp-doc table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+.vp-doc tr:nth-child(2n) {
+  background-color: rgba(49, 120, 198, 0.05);
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-lighter);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand);
+}
