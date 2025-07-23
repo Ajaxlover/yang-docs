@@ -5,7 +5,7 @@ export default defineConfig({
   title: '前端知识体系',
   description: '个人前端知识体系整理与分享',
   lang: 'zh-CN',
-  base: '/blog/',
+  base: '/yang-docs/',
   lastUpdated: true,
   themeConfig: {
     search: {
