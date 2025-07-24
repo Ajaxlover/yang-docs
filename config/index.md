@@ -11,7 +11,7 @@ hero:
     alt: 前端知识体系
   actions:
     - theme: brand
-      text: 开始学习
+      text: 开始
       link: /TypeScript常用
     - theme: alt
       text: 前端工程化
