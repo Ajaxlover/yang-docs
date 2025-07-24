@@ -29,6 +29,7 @@ export default defineConfig({
         text: '前端工程化',
         items: [
           { text: '详细落地实践方案', link: '/前端工程化详细落地实践方案' },
+          { text: '前端监控', link: '/前端监控系统实践' },
         ],
       },
       {
