@@ -33,6 +33,10 @@ export default defineConfig({
         ],
       },
       {
+        text: '微前端架构',
+        items: [{ text: '微前端实践', link: '/微前端最佳实践详细指南' }],
+      },
+      {
         text: 'CSS进阶',
         items: [{ text: 'CSS进阶指南', link: '/CSS进阶' }],
       },
