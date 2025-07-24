@@ -41,8 +41,12 @@ export default defineConfig({
         items: [{ text: 'CSS进阶指南', link: '/CSS进阶' }],
       },
       {
-        text: 'Vue3',
+        text: 'Vue',
         items: [{ text: 'Vue3语法实践', link: '/Vue3语法实践' }],
+      },
+      {
+        text: 'React',
+        items: [{ text: 'React最佳实践', link: '/React框架最佳实践详细指南' }],
       },
     ],
 
