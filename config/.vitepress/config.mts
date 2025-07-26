@@ -68,7 +68,7 @@ export default defineConfig({
 
     // 大纲配置
     outline: {
-      level: [2, 3],
+      level: 'deep',
       label: '页面导航',
     },
 
