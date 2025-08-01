@@ -48,6 +48,10 @@ export default defineConfig({
         text: 'React',
         items: [{ text: 'React最佳实践', link: '/React框架最佳实践详细指南' }],
       },
+      {
+        text: 'Nginx',
+        items: [{ text: 'Nginx配置', link: '/Nginx详细配置文档' }],
+      },
     ],
 
     socialLinks: [
