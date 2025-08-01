@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的前端知识体系"
+  name: "前端知识体系"
   text: "系统化前端学习与实践"
   tagline: 从基础到高级，构建完整的前端技术知识图谱
   image:
@@ -32,11 +32,4 @@ features:
     link: /CSS进阶
 ---
 
-## 最新更新
-
-- 🆕 **JavaScript基础** - 从变量、函数到异步编程，全面掌握JavaScript核心概念
-- 🎨 **CSS进阶** - 深入学习现代CSS技术，包括Grid、Flexbox、动画等高级主题
-- 🔥 **TypeScript常用语法** - 从基础到高级，全面介绍TypeScript的使用方法
-- 📚 **前端工程化详细落地实践方案** - 系统化的前端工程化解决方案
-- 🚀 **持续更新中...** - 更多前端技术内容正在筹备中
 
